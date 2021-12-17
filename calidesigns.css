@@ -1,0 +1,110 @@
+@font-face {
+  font-family: raleway;
+  src: url("Raleway/Raleway-Medium.ttf");
+}
+@font-face{
+  font-family: ralewayLight;
+  src: url("raleway/Raleway-Light.ttf");
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+
+  header{
+    background-color: #303030;
+    float: right;
+    text-align: right;
+    border: solid;
+    border-color:#303030;
+    border-width: 10px;
+    margin: 0%;
+    padding: 0%;
+  }
+  /* table{
+    color: #fff;
+    font-family: raleway;
+    text-align: center;
+    border-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    padding: 3px;
+  }
+  td{
+    border-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    padding: 1px;
+  }
+  /* th{
+    border-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+  } */ */
+  .nav{
+    width:100%;
+    position: fixed;
+  }
+  .nav2{
+    width:100%;
+  }
+  .flavicon{
+    float: left;
+    width : 150px;
+    padding-left: 5%;
+  }
+  #a{
+    font-family: raleway;
+    color:white;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px 35px;
+    font-size: 18px;
+  }
+  .section1{
+    background-color: #202020;
+    text-align: center;
+  }
+  p{
+    font-family: ralewaylight;
+    color:white;
+  }
+  h1{
+    font-family: raleway;
+    color: #fff;
+  }
+  h2{
+    font-family: raleway;
+  }
+  .sectionP1{
+    background-image: url("media/parallaximage1.png");
+    height: 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+    .quicklink{
+      text-align: center;
+      color: aqua;
+      padding: 0%;
+      margin: 0%;
+    }
+    li{
+      display: inline-block;
+    }
+    ul li{
+      display: inline-block;
+    }
+    a{
+      font-family: ralewaylight;
+      display: inline-block;
+      padding: 0%;
+      margin: 0%;
+    }
